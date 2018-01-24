@@ -1,0 +1,24 @@
+div
+{
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+h2
+{
+    font-family: gt;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+@font-face 
+{
+font-family: gt;
+src: url('fonts/gta.ttf')
+}
+body
+{
+background-image: url("images/RWP.jpg");
+}

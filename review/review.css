@@ -1,0 +1,51 @@
+    .topnav {
+        background-color: #000019;
+        overflow: hidden;
+    }
+
+    .topnav {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 18px;
+    }
+
+    .topnav :hover {
+        background-color: white;
+        color: black;
+    }
+
+    .topnav .active {
+        background-color: #00bfff;
+        color: white;
+        
+        
+    }
+    table
+    {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    }
+    td 
+    {
+    border:2px solid #ffffff;
+    padding: 0.5em;
+    }
+    th 
+    {
+	border:2px solid #ffffff;
+	background-color: #00ced1;
+	color: #fff;
+	text-align: left;
+	padding: 0.5em;
+    }
+    tr :hover
+    {
+    background-color:#ff69b4;
+    color:white;
+    }
+    td
+    {
+    background-color:red;
+    }

@@ -1,0 +1,28 @@
+div
+{
+  position: absolute;
+  left: -5px;
+  top: 0%;
+  width: 100%;
+  text-align: left;
+}
+.title
+{
+font-size: 40px;
+font-family:rg;
+text-align: center
+}
+@font-face 
+{
+font-family: rg;
+src: url('fonts/rg.ttf')
+}
+body
+{
+background-image: url("images/homewp.png");
+background-color: #ffffff;
+}
+.games
+{
+text-align:center;
+}

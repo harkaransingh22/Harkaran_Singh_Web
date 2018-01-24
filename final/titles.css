@@ -1,0 +1,205 @@
+div
+{
+  position: absolute;
+  left: -5px;
+  top: 0%;
+  width: 100%;
+  text-align: left;
+}
+h1
+{
+font-size: 40px;
+font-family:rdr;
+text-align: center;
+color: white;
+}
+@font-face 
+{
+font-family: rdr;
+src: url('fonts/rdr.ttf')
+}
+@font-face 
+{
+font-family: bully;
+src: url('fonts/bully.ttf')
+}
+@font-face 
+{
+font-family: mp;
+src: url('fonts/mp.ttf')
+}
+@font-face 
+{
+font-family: sa;
+src: url('fonts/sa.ttf')
+}
+body
+{
+background-color: #ee1c25;
+}
+h2
+{
+margin-left:340px;
+color: white;
+font-family: rdr;
+font-size: 30px;
+}
+.cover
+{
+top: 107px;
+left: 8px;
+}
+p
+{
+margin-left: 340px;
+color: white;
+font-family:sans-serif;
+}
+.img
+{
+top: 500px;
+text-align: center;
+}
+.char
+{
+border-style: solid;
+border-color: black;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+margin: 10px;
+padding: 3px;
+background-color:white;
+border-width: 5px;
+}
+.dev
+{
+top: 700px;
+left: 7px;
+color: white;
+width: 330px;
+}
+td,th
+{
+padding: 18px;
+font-size: 16px;
+font-family: sans-serif;
+border-color: white;
+border-width: 3px;
+}
+th
+{
+font-size: 20px;
+}
+table
+{
+border-color: black;
+}
+tr:hover 
+{ 
+background-color: black; 
+color: #ffffff; 
+}
+		table{
+		  border: 1px solid #d6dde6;
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+
+		td {
+		  border:2px solid #ffffff;
+		  padding: 0.5em;
+		}
+
+		th {
+		  border:2px solid #000000;
+		  background-color: #ffffff;
+		  color: #000000;
+		  text-align: left;
+		  padding: 0.5em;
+		}
+		col:nth-child(odd)
+		{
+		background-color: #ffffff;
+		color: #000;
+		}
+		
+		col:nth-child(even)
+		{
+		background-color: #bfe4ff;
+		color: #000;
+		}
+	
+
+
+
+.bully
+{
+font-family: bully;
+color: #ffbd00;
+}
+.bullybg
+{
+background-image: url("images/bully/bullywp.jpg");
+}
+.bimg
+{
+border-style: solid;
+border-color: #ffbd00;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+margin: 10px;
+padding: 3px;
+background-color: #062655;
+border-width: 5px;
+}
+.devbully
+{
+top: 700px;
+left: 7px;
+color: white;
+width: 330px;
+}
+.bullytb:hover 
+{
+background-color: #ffbd00; 
+color: black; 
+}
+
+
+
+.max
+{
+font-family: mp;
+color: #cf0000;
+}
+.maxpaynebg
+{
+background-color: black;
+}
+.mptext
+{
+color:white;
+}
+.devmax
+{
+top: 700px;
+left: 7px;
+color: white;
+width: 330px;
+}
+.maxtb:hover 
+{
+background-color: white; 
+color: black; 
+}
+.mpimg
+{
+border-style: solid;
+border-color:  #cf0000;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+margin: 10px;
+padding: 3px;
+background-color: black;
+border-width: 5px;
+}

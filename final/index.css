@@ -1,0 +1,47 @@
+
+h1
+{
+font-size: 40px;
+font-family:rg;
+text-align: center
+}
+h2
+{
+font-family:rg;
+}
+@font-face 
+{
+font-family: rg;
+src: url('fonts/rg.ttf')
+}
+.about
+{
+margin-right: 605px;
+font-family: sans-serif;
+}
+.sub{
+margin-right: 773px;
+font-family: sans-serif;
+}
+body
+{
+background-image: url("images/homewp.png");
+background-color: #ffffff;
+}
+.click
+{
+text-align: right;
+}
+
+.indextitle
+{
+position: absolute;
+top: 15px;
+left: 40%;
+}
+.johnimage
+{
+position: absolute;
+top:70px;
+left: 52%;
+}
