@@ -33,6 +33,11 @@ src: url('fonts/mp.ttf')
 font-family: sa;
 src: url('fonts/sa.ttf')
 }
+@font-face 
+{
+font-family: rg;
+src: url('fonts/rg.ttf')
+}
 body
 {
 background-color: #ee1c25;
@@ -70,6 +75,7 @@ margin: 10px;
 padding: 3px;
 background-color:white;
 border-width: 5px;
+margin-left: 1px;
 }
 .dev
 {
@@ -117,19 +123,6 @@ color: #ffffff;
 		  text-align: left;
 		  padding: 0.5em;
 		}
-		col:nth-child(odd)
-		{
-		background-color: #ffffff;
-		color: #000;
-		}
-		
-		col:nth-child(even)
-		{
-		background-color: #bfe4ff;
-		color: #000;
-		}
-	
-
 
 
 .bully
@@ -151,6 +144,7 @@ margin: 10px;
 padding: 3px;
 background-color: #062655;
 border-width: 5px;
+margin-left: 1px;
 }
 .devbully
 {
@@ -190,7 +184,7 @@ width: 330px;
 .maxtb:hover 
 {
 background-color: white; 
-color: black; 
+color: #d80202; 
 }
 .mpimg
 {
@@ -202,4 +196,10 @@ margin: 10px;
 padding: 3px;
 background-color: black;
 border-width: 5px;
+margin-left: 1px;
+}
+
+.gtasa
+{
+background-image: url("images/gtasa/gtasawp.jpg");
 }
